@@ -1,0 +1,50 @@
+[debug] [2023-11-12T22:52:25.769Z] ----------------------------------------------------------------------
+[debug] [2023-11-12T22:52:25.777Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-12T22:52:25.778Z] CLI Version:   12.8.1
+[debug] [2023-11-12T22:52:25.779Z] Platform:      win32
+[debug] [2023-11-12T22:52:25.780Z] Node Version:  v18.16.0
+[debug] [2023-11-12T22:52:25.783Z] Time:          Sun Nov 12 2023 19:52:25 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2023-11-12T22:52:25.783Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-12T22:52:25.972Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-12T22:52:25.973Z] > authorizing via signed-in user (paula.youssef2014@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\workspace2\BackEnd\chatserver
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-12T22:52:37.375Z] Using project from CLI flag: chat-11bf8
+[debug] [2023-11-12T22:52:37.378Z] > refreshing access token with scopes: []
+[debug] [2023-11-12T22:52:37.382Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-11-12T22:52:37.383Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-11-12T22:52:37.738Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-11-12T22:52:37.738Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-11-12T22:52:38.018Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chat-11bf8 [none]
+[debug] [2023-11-12T22:52:38.433Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chat-11bf8 200
+[debug] [2023-11-12T22:52:38.433Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chat-11bf8 {"projectId":"chat-11bf8","projectNumber":"1009498302689","displayName":"chat","name":"projects/chat-11bf8","resources":{"hostingSite":"chat-11bf8"},"state":"ACTIVE","etag":"1_a6e18ac9-254d-4530-94cc-de4c103011d9"}
+[info] i  Using project chat-11bf8 (chat) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
